@@ -11,6 +11,7 @@ import 'css/application.scss'
 import 'uswds/dist/img/icon-dot-gov.svg'
 import 'uswds/dist/img/us_flag_small.png'
 import 'uswds/dist/img/icon-https.svg'
+import 'uswds/dist/img/usa-icons-bg/search--white.svg'
 
 document.addEventListener("DOMContentLoaded", () => {
   require('uswds')
