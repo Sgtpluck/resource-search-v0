@@ -46,7 +46,7 @@ def all_issues_ignored?(issues)
   present_advisories_with_frequencies = Hash.new { |hash, key| hash[key] = 0 }
 
   # Only look at audit advisories, and not audit summaries
-  issues.select{|issue_json| issue_json['type'] == 'auditAdvisory'}.each do |issue_json|
+  issues.select { |issue_json| issue_json['type'] == 'auditAdvisory' }.each do |issue_json|
     present_advisories_with_frequencies[issue_json['data']['advisory']['id']] += 1
   end
 
