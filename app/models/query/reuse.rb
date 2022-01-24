@@ -3,6 +3,8 @@ class Query::Reuse
 
   def initialize(value)
     @value = value
+
+    Analytic.create(field: "Reuse", value: value)
   end
 
   def query_string

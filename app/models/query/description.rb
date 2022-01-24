@@ -3,6 +3,8 @@ class Query::Description
 
   def initialize(value)
     @value = value
+
+    Analytic.create(field: "Description", value: value)
   end
 
   def query_string
