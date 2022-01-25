@@ -2,7 +2,7 @@
   "name": "resource-search",
   "private": true,
   "dependencies": {
-    "@rails/ujs": "^6.0.0",
+    "@rails/ujs": "^7.0.1",
     "@rails/webpacker": "5.4.3",
     "resolve-url-loader": "^4.0.0",
     "uswds": "^2.13.0",
